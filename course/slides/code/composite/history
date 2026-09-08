@@ -1,0 +1,10 @@
+Backpack bp = new Backpack(List.of(new Book("Design Patterns"), new Book("Comp Org"), new Backpack(List.of(new Book("Intro to Opera")))))
+/open BPExample.java
+Backpack bp = new Backpack(List.of(new Book("Design Patterns"), new Book("Comp Org"), new Backpack(List.of(new Book("Intro to Opera")))))
+bp.print()
+/open BPExample.java
+Backpack bp = new Backpack(List.of(new Book("Design Patterns"), new Book("Comp Org"), new Backpack(List.of(new Book("Intro to Opera")))))
+bp.print("")
+var bp2 = new Backpack(List.of(bp, new Book("SPC"))
+)
+bp2.print("")
